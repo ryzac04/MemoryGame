@@ -1,0 +1,28 @@
+body {
+  background: rgb(68, 68, 68);
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 16px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+}
+
+.card {
+  height: 100px;
+  background: rgb(32, 32, 32);
+  border: 5px solid rgb(131, 131, 131);
+  cursor: pointer;
+}
